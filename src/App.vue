@@ -19,7 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
   <RouterView />
 </template>
-
+<!-- 
 <style scoped>
 header {
   line-height: 1.5;
@@ -82,4 +82,4 @@ nav a:first-of-type {
     margin-top: 1rem;
   }
 }
-</style>
+</style> -->
