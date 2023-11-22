@@ -8,9 +8,9 @@ import { RouterLink, RouterView } from "vue-router";
   <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <!-- <nav class="bg-white border-gray-200 dark:bg-gray-900">
-                            <RouterLink to="/">Home</RouterLink>
-                            <RouterLink to="/about">About</RouterLink>
-                          </nav> -->
+                              <RouterLink to="/">Home</RouterLink>
+                              <RouterLink to="/about">About</RouterLink>
+                            </nav> -->
 
     <nav class="bg-blue-500 p-4">
       <div class="container mx-auto flex justify-between items-center">
@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from "vue-router";
           <RouterLink to="/" class="text-white p-4 hover:bg-blue-600">Home</RouterLink>
           <RouterLink to="/about" class="text-white p-4 hover:bg-blue-600">About</RouterLink>
           <!-- TODO Contact -->
-          <a href="#" class="text-white p-4 hover:bg-blue-600">Contact</a>
+          <RouterLink to="/contact" class="text-white p-4 hover:bg-blue-600">Contact</RouterLink>
         </div>
       </div>
     </nav>
